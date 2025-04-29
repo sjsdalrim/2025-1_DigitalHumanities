@@ -11,7 +11,7 @@ import requests
 import time
 import csv
 
-API_KEY = '5e24fba7b1ac093e115d6dded8e40cfd'
+API_KEY = 'KOBIS_API_KEY'
 
 def get_movie_list(year, cur_page=1):
     url = f"http://www.kobis.or.kr/kobisopenapi/webservice/rest/movie/searchMovieList.json"
